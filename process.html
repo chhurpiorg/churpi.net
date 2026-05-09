@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Understand the traditional process used to make soft and hard Churpi.">
+  <title>How Churpi Is Made | Churpi.net</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">C</span><span>Churpi.net</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="origins.html">Origins</a><a href="process.html">Making</a><a href="varieties.html">Varieties</a><a href="culture.html">Culture</a><a href="recipes.html">Recipes</a><a href="sources.html">Sources</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero process-hero">
+      <p class="eyebrow">Making</p>
+      <h1>Churpi is preservation craft in edible form.</h1>
+      <p>The exact method varies by household and region, but the common pattern is heating, curdling, draining, pressing, fermenting, and drying.</p>
+    </section>
+
+    <section class="process-board" data-process>
+      <div class="process-steps" role="tablist" aria-label="Churpi making steps">
+        <button class="active" type="button" data-step="milk">1 Milk</button>
+        <button type="button" data-step="curd">2 Curdle</button>
+        <button type="button" data-step="press">3 Press</button>
+        <button type="button" data-step="dry">4 Dry</button>
+        <button type="button" data-step="store">5 Store</button>
+      </div>
+      <div class="process-detail" aria-live="polite">
+        <h2>Milk is collected and often partially skimmed.</h2>
+        <p>Traditional makers may use yak, chauri, or cow milk. Lower-fat milk can help hard Churpi dry more firmly and keep longer.</p>
+      </div>
+    </section>
+
+    <section class="split-section">
+      <div>
+        <h2>From fresh curds to hard cheese</h2>
+        <p>Curds are separated from whey, then drained and pressed. For soft Churpi, the cheese may remain fresh and crumbly for cooking. For hard Churpi, the pressed curd is cut into pieces and dried in sun, smoke, or low heat until moisture is greatly reduced.</p>
+        <p>That drying stage is the reason hard Churpi can become so dense. Moisture loss, fermentation, and time all contribute to its firm texture and long shelf life.</p>
+      </div>
+      <aside class="knowledge-card">
+        <h3>Process vocabulary</h3>
+        <dl class="mini-list">
+          <dt>Curd</dt><dd>Milk solids separated from liquid whey.</dd>
+          <dt>Whey</dt><dd>The watery part left after curdling.</dd>
+          <dt>Smoking</dt><dd>A drying method that also adds aroma.</dd>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="interactive-panel">
+      <div class="section-heading">
+        <p class="eyebrow">Moisture meter</p>
+        <h2>Move the slider to see how texture changes.</h2>
+      </div>
+      <label class="slider-label" for="moisture">Moisture level</label>
+      <input id="moisture" class="range" type="range" min="0" max="100" value="25" data-moisture>
+      <div class="meter-output" aria-live="polite">
+        <strong>Hard and dry</strong>
+        <span>Best suited to slow chewing and long storage.</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Churpi.net shares educational information about traditional Himalayan cheese.</p>
+    <p><a href="sources.html">View sources and image credits</a></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Compare soft Churpi and hard Churpi by texture, use, storage, and taste.">
+  <title>Varieties | Churpi.net</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">C</span><span>Churpi.net</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="origins.html">Origins</a><a href="process.html">Making</a><a href="varieties.html">Varieties</a><a href="culture.html">Culture</a><a href="recipes.html">Recipes</a><a href="sources.html">Sources</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero varieties-hero">
+      <p class="eyebrow">Varieties</p>
+      <h1>Soft, hard, smoky, tangy, fresh.</h1>
+      <p>Churpi is not just one texture. Its identity changes with milk, fermentation, pressing, drying, and local taste.</p>
+    </section>
+
+    <section class="compare-section" data-compare>
+      <div class="compare-controls" role="tablist" aria-label="Compare Churpi varieties">
+        <button type="button" class="active" data-variety="soft">Soft Churpi</button>
+        <button type="button" data-variety="hard">Hard Churpi</button>
+      </div>
+      <div class="compare-card" aria-live="polite">
+        <h2>Soft Churpi</h2>
+        <p>Fresh, crumbly, and slightly tangy. It is often cooked into curries, soups, pickles, and vegetable dishes.</p>
+        <ul>
+          <li>Texture: soft to crumbly</li>
+          <li>Use: cooking and side dishes</li>
+          <li>Storage: shorter than dried hard Churpi</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card-row">
+      <article>
+        <h3>Soft Churpi</h3>
+        <p>Used more like a fresh cheese. It can absorb spices and vegetables, making it useful in warm everyday dishes.</p>
+      </article>
+      <article>
+        <h3>Hard Churpi</h3>
+        <p>Dried until very firm. People often soften a small piece slowly in the mouth rather than biting it immediately.</p>
+      </article>
+      <article>
+        <h3>Smoked Churpi</h3>
+        <p>Some makers smoke the cheese during drying, giving it a deeper aroma and helping reduce moisture.</p>
+      </article>
+    </section>
+
+    <section class="quiz-section" data-quiz>
+      <div class="section-heading">
+        <p class="eyebrow">Knowledge check</p>
+        <h2>Which Churpi fits the clue?</h2>
+      </div>
+      <p class="quiz-question">This variety is usually dried until very firm and chewed slowly.</p>
+      <div class="quiz-options">
+        <button type="button" data-answer="wrong">Soft Churpi</button>
+        <button type="button" data-answer="right">Hard Churpi</button>
+        <button type="button" data-answer="wrong">Fresh paneer</button>
+      </div>
+      <p class="quiz-result" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Churpi.net shares educational information about traditional Himalayan cheese.</p>
+    <p><a href="sources.html">View sources and image credits</a></p>
+  </footer>
+</body>
+</html>
